@@ -23,3 +23,7 @@ export function getIdeaFiles(idea: string): string[] {
   if (!fs.existsSync(ideaDir)) return [];
   return fs.readdirSync(ideaDir).filter(f => f.endsWith('.md')).sort();
 }
+
+export function hasLanding(idea: string): boolean {
+  return fs.existsSync(path.join(IDEAS_DIR, idea, 'landing.tsx'));
+}
