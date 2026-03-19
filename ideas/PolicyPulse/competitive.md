@@ -19,11 +19,26 @@
 - **Gap:** Focuses on physical labor law posters (compliance theater) — not actual policy drafting.
 - Source: https://www.govdocs.com/
 
-### 3. Rippling / Paychex / ADP
-- **What it does:** Full HRIS — payroll, benefits, compliance baked in at the system level
-- **Pricing:** $40-100+/month (and rising with add-ons)
-- **Gap:** You're buying a $70/month payroll system to get compliance. Overkill for existing Gusto/QuickBooks users.
-- **Gap:** Compliance is passive (no alerts, no plain-English policy drafting), not AI-native.
+### 3. Gusto
+- **What it does:** Payroll, benefits, HR for small businesses
+- **Customers:** 400,000 businesses; **59% have <50 employees** (their core SMB market)
+- **Pricing:** From ~$40/month base + per-employee fees
+- **Compliance approach:** Reactive — you call them when you have a question. No proactive law-change monitoring.
+- **Gap:** Has the distribution (400K SMB customers) but not the product. Could add this feature — that's the real threat, not current capabilities.
+- Source: enlyft.com, getlatka.com (2024/2025 data)
+
+### 4. Rippling
+- **What it does:** Full HRIS + IT — payroll, benefits, device management
+- **Revenue:** $570M ARR (2025), growing 30%+ YoY
+- **Target market:** Mid-market (50–500 employees), scaling companies
+- **Compliance approach:** More built-in than Gusto but still reactive. No AI-native monitoring.
+- **Gap:** Overkill for <50 employee businesses. Targets a different buyer (scaling ops teams, not founder-run shops).
+- Source: sacra.com, contrary.com (2025)
+
+### 5. Paychex / ADP
+- **What it does:** Enterprise payroll + HR
+- **Target:** 100+ employee companies primarily
+- **Gap:** Not self-serve for SMBs. Expensive. Compliance is a call-center service, not a product.
 
 ### 4. Harvey AI / CoCounsel / Spellbook
 - **What it does:** AI for lawyers — contract review, research, drafting

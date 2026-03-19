@@ -54,6 +54,17 @@
 
 ---
 
+## HR Platform Customer Segmentation (Added March 2026)
+
+- **Gusto:** 400,000 business customers. 59% have <50 employees, 30% medium-sized, 9% large (>1,000). Pure SMB focus. Compliance is reactive (Q&A hotline), not proactive monitoring.
+  - Source: enlyft.com, getlatka.com
+- **Rippling:** $570M ARR (2025), ~2,000 customers, targets mid-market (50–500 employees). Growing into enterprise. Compliance features more robust than Gusto but still not AI-native monitoring.
+  - Source: sacra.com, contrary.com, Yahoo Finance (2025)
+- **Mineral:** Explicitly targets SMBs (5–200 employees). Sells through brokers/PEOs, not direct. Human experts + template library — not AI-native. Acquired by Mitratech (enterprise compliance company).
+  - Source: trustmineral.com, mitratech.com (2025)
+- **GovDocs:** Targets large employers (100+ locations). Focused on physical labor law posters, not AI-native policy monitoring. B2B2B model.
+- **Key gap:** Gusto owns the SMB payroll market but has no proactive compliance monitoring. Mineral covers SMBs but is broker-sold and human-powered. No direct-to-SMB AI-native compliance monitor exists.
+
 ## Competitor Pricing Data
 
 - **Mineral (ThinkHR)**: $3–$5 per user/month (sold through brokers, hard to buy direct)
