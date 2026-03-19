@@ -12,8 +12,14 @@ interface Credential {
 export async function POST(req: NextRequest) {
   const { email, password } = await req.json();
 
-  const credPath = path.join(process.cwd(), 'credentials.json');
-  const credentials: Credential[] = JSON.parse(fs.readFileSync(credPath, 'utf8'));
+  // Read from env var in production, fall back to local file in dev
+  let credentials: Credential[];
+  if (process.env.CREDENTIALS_JSON) {
+    credentials = JSON.parse(process.env.CREDENTIALS_JSON);
+  } else {
+    const credPath = path.join(process.cwd(), 'credentials.json');
+    credentials = JSON.parse(fs.readFileSync(credPath, 'utf8'));
+  }
 
   const match = credentials.find(
     c => c.email === email && c.password === password
